@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A00AEF2B5F5BD600E19B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00AEE2B5F5BD600E19B6D /* AppDelegate.swift */; };
+		34A00AF12B5F5BD600E19B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00AF02B5F5BD600E19B6D /* SceneDelegate.swift */; };
+		34A00AF32B5F5BD600E19B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00AF22B5F5BD600E19B6D /* ViewController.swift */; };
+		34A00AF62B5F5BD600E19B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A00AF42B5F5BD600E19B6D /* Main.storyboard */; };
+		34A00AF82B5F5BDF00E19B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A00AF72B5F5BDF00E19B6D /* Assets.xcassets */; };
+		34A00AFB2B5F5BDF00E19B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A00AF92B5F5BDF00E19B6D /* LaunchScreen.storyboard */; };
+		34A00B062B5F5BDF00E19B6D /* BadmintonWeiyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B052B5F5BDF00E19B6D /* BadmintonWeiyaTests.swift */; };
+		34A00B102B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B0F2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift */; };
+		34A00B122B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B112B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift */; };
+		426AA9833B92FA1649419071 /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDAD7A73CB402448F9A11E /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework */; };
+		4338540061546518AD2244B2 /* Pods_BadmintonWeiya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433E1846EF687CAFF22B7CFB /* Pods_BadmintonWeiya.framework */; };
+		A7340F49CD4AACD22EB76338 /* Pods_BadmintonWeiyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3C616ADA48E3940F9C5855 /* Pods_BadmintonWeiyaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A00B022B5F5BDF00E19B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A00AE32B5F5BD600E19B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A00AEA2B5F5BD600E19B6D;
+			remoteInfo = BadmintonWeiya;
+		};
+		34A00B0C2B5F5BDF00E19B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A00AE32B5F5BD600E19B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A00AEA2B5F5BD600E19B6D;
+			remoteInfo = BadmintonWeiya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A00AEB2B5F5BD600E19B6D /* BadmintonWeiya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadmintonWeiya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A00AEE2B5F5BD600E19B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34A00AF02B5F5BD600E19B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34A00AF22B5F5BD600E19B6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34A00AF52B5F5BD600E19B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A00AF72B5F5BDF00E19B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A00AFA2B5F5BDF00E19B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A00AFC2B5F5BDF00E19B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A00B012B5F5BDF00E19B6D /* BadmintonWeiyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadmintonWeiyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A00B052B5F5BDF00E19B6D /* BadmintonWeiyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonWeiyaTests.swift; sourceTree = "<group>"; };
+		34A00B0B2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadmintonWeiyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A00B0F2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonWeiyaUITests.swift; sourceTree = "<group>"; };
+		34A00B112B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonWeiyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F6555FC127B736AC4485BB4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		433E1846EF687CAFF22B7CFB /* Pods_BadmintonWeiya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadmintonWeiya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		716AB18125D5CF2D62F56BE9 /* Pods-BadmintonWeiyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiyaTests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84408B7BCF64050AF8F2B9A7 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9618AFE2530D4487784DF3BE /* Pods-BadmintonWeiya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiya.release.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiya/Pods-BadmintonWeiya.release.xcconfig"; sourceTree = "<group>"; };
+		B9E5C236C5EFB6928D3F5AAF /* Pods-BadmintonWeiya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiya.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiya/Pods-BadmintonWeiya.debug.xcconfig"; sourceTree = "<group>"; };
+		BE3C616ADA48E3940F9C5855 /* Pods_BadmintonWeiyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadmintonWeiyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDDAD7A73CB402448F9A11E /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F420E99E67E4CE2B1DA988DF /* Pods-BadmintonWeiyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiyaTests.release.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A00AE82B5F5BD600E19B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4338540061546518AD2244B2 /* Pods_BadmintonWeiya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A00AFE2B5F5BDF00E19B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7340F49CD4AACD22EB76338 /* Pods_BadmintonWeiyaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A00B082B5F5BDF00E19B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426AA9833B92FA1649419071 /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A00AE22B5F5BD600E19B6D = {
+			isa = PBXGroup;
+			children = (
+				34A00AED2B5F5BD600E19B6D /* BadmintonWeiya */,
+				34A00B042B5F5BDF00E19B6D /* BadmintonWeiyaTests */,
+				34A00B0E2B5F5BDF00E19B6D /* BadmintonWeiyaUITests */,
+				34A00AEC2B5F5BD600E19B6D /* Products */,
+				96EB754416197EA533E39473 /* Pods */,
+				8335DAF8D1F4C83D6F152763 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34A00AEC2B5F5BD600E19B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A00AEB2B5F5BD600E19B6D /* BadmintonWeiya.app */,
+				34A00B012B5F5BDF00E19B6D /* BadmintonWeiyaTests.xctest */,
+				34A00B0B2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A00AED2B5F5BD600E19B6D /* BadmintonWeiya */ = {
+			isa = PBXGroup;
+			children = (
+				34A00AEE2B5F5BD600E19B6D /* AppDelegate.swift */,
+				34A00AF02B5F5BD600E19B6D /* SceneDelegate.swift */,
+				34A00AF22B5F5BD600E19B6D /* ViewController.swift */,
+				34A00AF42B5F5BD600E19B6D /* Main.storyboard */,
+				34A00AF72B5F5BDF00E19B6D /* Assets.xcassets */,
+				34A00AF92B5F5BDF00E19B6D /* LaunchScreen.storyboard */,
+				34A00AFC2B5F5BDF00E19B6D /* Info.plist */,
+			);
+			path = BadmintonWeiya;
+			sourceTree = "<group>";
+		};
+		34A00B042B5F5BDF00E19B6D /* BadmintonWeiyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A00B052B5F5BDF00E19B6D /* BadmintonWeiyaTests.swift */,
+			);
+			path = BadmintonWeiyaTests;
+			sourceTree = "<group>";
+		};
+		34A00B0E2B5F5BDF00E19B6D /* BadmintonWeiyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34A00B0F2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift */,
+				34A00B112B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift */,
+			);
+			path = BadmintonWeiyaUITests;
+			sourceTree = "<group>";
+		};
+		8335DAF8D1F4C83D6F152763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433E1846EF687CAFF22B7CFB /* Pods_BadmintonWeiya.framework */,
+				EBDDAD7A73CB402448F9A11E /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework */,
+				BE3C616ADA48E3940F9C5855 /* Pods_BadmintonWeiyaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96EB754416197EA533E39473 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9E5C236C5EFB6928D3F5AAF /* Pods-BadmintonWeiya.debug.xcconfig */,
+				9618AFE2530D4487784DF3BE /* Pods-BadmintonWeiya.release.xcconfig */,
+				3F6555FC127B736AC4485BB4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */,
+				84408B7BCF64050AF8F2B9A7 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig */,
+				716AB18125D5CF2D62F56BE9 /* Pods-BadmintonWeiyaTests.debug.xcconfig */,
+				F420E99E67E4CE2B1DA988DF /* Pods-BadmintonWeiyaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A00AEA2B5F5BD600E19B6D /* BadmintonWeiya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A00B152B5F5BDF00E19B6D /* Build configuration list for PBXNativeTarget "BadmintonWeiya" */;
+			buildPhases = (
+				6ADF657AACF42EEB1E72DB35 /* [CP] Check Pods Manifest.lock */,
+				34A00AE72B5F5BD600E19B6D /* Sources */,
+				34A00AE82B5F5BD600E19B6D /* Frameworks */,
+				34A00AE92B5F5BD600E19B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadmintonWeiya;
+			productName = BadmintonWeiya;
+			productReference = 34A00AEB2B5F5BD600E19B6D /* BadmintonWeiya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A00B002B5F5BDF00E19B6D /* BadmintonWeiyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A00B182B5F5BDF00E19B6D /* Build configuration list for PBXNativeTarget "BadmintonWeiyaTests" */;
+			buildPhases = (
+				8BADB9C6C52ED28376377D2A /* [CP] Check Pods Manifest.lock */,
+				34A00AFD2B5F5BDF00E19B6D /* Sources */,
+				34A00AFE2B5F5BDF00E19B6D /* Frameworks */,
+				34A00AFF2B5F5BDF00E19B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A00B032B5F5BDF00E19B6D /* PBXTargetDependency */,
+			);
+			name = BadmintonWeiyaTests;
+			productName = BadmintonWeiyaTests;
+			productReference = 34A00B012B5F5BDF00E19B6D /* BadmintonWeiyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34A00B0A2B5F5BDF00E19B6D /* BadmintonWeiyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A00B1B2B5F5BDF00E19B6D /* Build configuration list for PBXNativeTarget "BadmintonWeiyaUITests" */;
+			buildPhases = (
+				2233BEE4B4067B30FF6FD0AB /* [CP] Check Pods Manifest.lock */,
+				34A00B072B5F5BDF00E19B6D /* Sources */,
+				34A00B082B5F5BDF00E19B6D /* Frameworks */,
+				34A00B092B5F5BDF00E19B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A00B0D2B5F5BDF00E19B6D /* PBXTargetDependency */,
+			);
+			name = BadmintonWeiyaUITests;
+			productName = BadmintonWeiyaUITests;
+			productReference = 34A00B0B2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A00AE32B5F5BD600E19B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					34A00AEA2B5F5BD600E19B6D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					34A00B002B5F5BDF00E19B6D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 34A00AEA2B5F5BD600E19B6D;
+					};
+					34A00B0A2B5F5BDF00E19B6D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 34A00AEA2B5F5BD600E19B6D;
+					};
+				};
+			};
+			buildConfigurationList = 34A00AE62B5F5BD600E19B6D /* Build configuration list for PBXProject "BadmintonWeiya" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A00AE22B5F5BD600E19B6D;
+			productRefGroup = 34A00AEC2B5F5BD600E19B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A00AEA2B5F5BD600E19B6D /* BadmintonWeiya */,
+				34A00B002B5F5BDF00E19B6D /* BadmintonWeiyaTests */,
+				34A00B0A2B5F5BDF00E19B6D /* BadmintonWeiyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A00AE92B5F5BD600E19B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A00AFB2B5F5BDF00E19B6D /* LaunchScreen.storyboard in Resources */,
+				34A00AF82B5F5BDF00E19B6D /* Assets.xcassets in Resources */,
+				34A00AF62B5F5BD600E19B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A00AFF2B5F5BDF00E19B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A00B092B5F5BDF00E19B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2233BEE4B4067B30FF6FD0AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BadmintonWeiya-BadmintonWeiyaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ADF657AACF42EEB1E72DB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BadmintonWeiya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BADB9C6C52ED28376377D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BadmintonWeiyaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A00AE72B5F5BD600E19B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A00AF32B5F5BD600E19B6D /* ViewController.swift in Sources */,
+				34A00AEF2B5F5BD600E19B6D /* AppDelegate.swift in Sources */,
+				34A00AF12B5F5BD600E19B6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A00AFD2B5F5BDF00E19B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A00B062B5F5BDF00E19B6D /* BadmintonWeiyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A00B072B5F5BDF00E19B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A00B102B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift in Sources */,
+				34A00B122B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A00B032B5F5BDF00E19B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A00AEA2B5F5BD600E19B6D /* BadmintonWeiya */;
+			targetProxy = 34A00B022B5F5BDF00E19B6D /* PBXContainerItemProxy */;
+		};
+		34A00B0D2B5F5BDF00E19B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A00AEA2B5F5BD600E19B6D /* BadmintonWeiya */;
+			targetProxy = 34A00B0C2B5F5BDF00E19B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A00AF42B5F5BD600E19B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A00AF52B5F5BD600E19B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A00AF92B5F5BDF00E19B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A00AFA2B5F5BDF00E19B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A00B132B5F5BDF00E19B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34A00B142B5F5BDF00E19B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A00B162B5F5BDF00E19B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E5C236C5EFB6928D3F5AAF /* Pods-BadmintonWeiya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QY5X25VTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BadmintonWeiya/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallfat5566.BadmintonWeiya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A00B172B5F5BDF00E19B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9618AFE2530D4487784DF3BE /* Pods-BadmintonWeiya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QY5X25VTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BadmintonWeiya/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallfat5566.BadmintonWeiya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34A00B192B5F5BDF00E19B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716AB18125D5CF2D62F56BE9 /* Pods-BadmintonWeiyaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QY5X25VTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallfat5566.BadmintonWeiyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadmintonWeiya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BadmintonWeiya";
+			};
+			name = Debug;
+		};
+		34A00B1A2B5F5BDF00E19B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F420E99E67E4CE2B1DA988DF /* Pods-BadmintonWeiyaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QY5X25VTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallfat5566.BadmintonWeiyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadmintonWeiya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BadmintonWeiya";
+			};
+			name = Release;
+		};
+		34A00B1C2B5F5BDF00E19B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6555FC127B736AC4485BB4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QY5X25VTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallfat5566.BadmintonWeiyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BadmintonWeiya;
+			};
+			name = Debug;
+		};
+		34A00B1D2B5F5BDF00E19B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84408B7BCF64050AF8F2B9A7 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QY5X25VTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallfat5566.BadmintonWeiyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BadmintonWeiya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A00AE62B5F5BD600E19B6D /* Build configuration list for PBXProject "BadmintonWeiya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A00B132B5F5BDF00E19B6D /* Debug */,
+				34A00B142B5F5BDF00E19B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A00B152B5F5BDF00E19B6D /* Build configuration list for PBXNativeTarget "BadmintonWeiya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A00B162B5F5BDF00E19B6D /* Debug */,
+				34A00B172B5F5BDF00E19B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A00B182B5F5BDF00E19B6D /* Build configuration list for PBXNativeTarget "BadmintonWeiyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A00B192B5F5BDF00E19B6D /* Debug */,
+				34A00B1A2B5F5BDF00E19B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A00B1B2B5F5BDF00E19B6D /* Build configuration list for PBXNativeTarget "BadmintonWeiyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A00B1C2B5F5BDF00E19B6D /* Debug */,
+				34A00B1D2B5F5BDF00E19B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A00AE32B5F5BD600E19B6D /* Project object */;
+}

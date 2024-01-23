@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4627703BD0D3A4FCEFE2C15FB5E51584 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FE81C8B69D11FE26B2714F6E554BC4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EABB11B943EF14A00FBC440FBC8B70B /* Pods-BadmintonWeiya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE5C90AAE9F71F0E6DD022A365167D0 /* Pods-BadmintonWeiya-dummy.m */; };
+		7FA4B266B34CBEDE8C9106326E727CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AF3F07EDBC999FEB18D2B5E424A447AC /* Pods-BadmintonWeiya-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 553F9609D78D08AB61A0BC197BAF5187 /* Pods-BadmintonWeiya-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1DD0BC0575593836993B2F8EECE83F6 /* Pods-BadmintonWeiyaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A775C156233CD53A9BA30494159A7BF9 /* Pods-BadmintonWeiyaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9939E8ACB9A39C0AC8630FF079F1330 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA9C6013DB80D6101AACA0A0CEBC80 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-dummy.m */; };
+		DD9C0ADEAABDF2A20983E1A1E168F669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F1B8C5A68A507F3FD109643985CDAC34 /* Pods-BadmintonWeiyaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4ADAD016990DB6F3613A86C1CD30CF /* Pods-BadmintonWeiyaTests-dummy.m */; };
+		F37A84BEFFD1F2267886ADF53AA68D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7424B5A2363EA3A6B861D471A01C9313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BB26002352A1F1526BAA442064A45C;
+			remoteInfo = "Pods-BadmintonWeiya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BA04725D3EFD26618E549459BD6A76 /* Pods-BadmintonWeiya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadmintonWeiya.debug.xcconfig"; sourceTree = "<group>"; };
+		1755094143652F7558354D4BE1A1EFF9 /* Pods-BadmintonWeiya-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadmintonWeiya-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C97605544822D0324CEE182910C3E0A /* Pods-BadmintonWeiya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadmintonWeiya-Info.plist"; sourceTree = "<group>"; };
+		2CE20A7E16E68E259BC6C5240873A3EE /* Pods-BadmintonWeiyaTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BadmintonWeiyaTests"; path = Pods_BadmintonWeiyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4ADAD016990DB6F3613A86C1CD30CF /* Pods-BadmintonWeiyaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadmintonWeiyaTests-dummy.m"; sourceTree = "<group>"; };
+		34A3D9DD4867A4BF45277686E3393759 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36CA728A8DECA997A3D9D360B6BC7C3B /* Pods-BadmintonWeiya-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadmintonWeiya-acknowledgements.plist"; sourceTree = "<group>"; };
+		43AA88E0685083C6DEA9844F87757039 /* Pods-BadmintonWeiya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadmintonWeiya.modulemap"; sourceTree = "<group>"; };
+		4DB00EB2ADFAE81215D27166272641F2 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		553F9609D78D08AB61A0BC197BAF5187 /* Pods-BadmintonWeiya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadmintonWeiya-umbrella.h"; sourceTree = "<group>"; };
+		586293F1D0615C8CE6C3CF8EC0FB6042 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59286F862960749A99D2B0EC117CE820 /* Pods-BadmintonWeiyaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadmintonWeiyaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A2361D5A6CFF0F768E0AE1661597943 /* Pods-BadmintonWeiyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadmintonWeiyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73D0C624A1EDCB0353599901BB4E4B82 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75650219B9BD9B676B02635AE343AAC3 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests.modulemap"; sourceTree = "<group>"; };
+		7C9234F2A81F63187B634EDD2BEE83B8 /* Pods-BadmintonWeiyaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadmintonWeiyaTests-Info.plist"; sourceTree = "<group>"; };
+		89D1F2C17EC9669AF69E4F20A74F2DA9 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BadmintonWeiya-BadmintonWeiyaUITests"; path = Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F23B5F599CB60A4AE64FCCB2DC0BFD2 /* Pods-BadmintonWeiya */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BadmintonWeiya"; path = Pods_BadmintonWeiya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FE81C8B69D11FE26B2714F6E554BC4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests-umbrella.h"; sourceTree = "<group>"; };
+		9448B6A9A8517216663E33D492E61FAA /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A775C156233CD53A9BA30494159A7BF9 /* Pods-BadmintonWeiyaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BadmintonWeiyaTests-umbrella.h"; sourceTree = "<group>"; };
+		BACA9C6013DB80D6101AACA0A0CEBC80 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadmintonWeiya-BadmintonWeiyaUITests-dummy.m"; sourceTree = "<group>"; };
+		CE8297149BE3FA1C0CD0EB8CBD24F500 /* Pods-BadmintonWeiya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadmintonWeiya.release.xcconfig"; sourceTree = "<group>"; };
+		D7C36E86E04823249BAC2E71DBC28DB1 /* Pods-BadmintonWeiyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadmintonWeiyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E45D118EF6C6DB965710EB4A1961DAE3 /* Pods-BadmintonWeiyaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BadmintonWeiyaTests.modulemap"; sourceTree = "<group>"; };
+		EDE5C90AAE9F71F0E6DD022A365167D0 /* Pods-BadmintonWeiya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadmintonWeiya-dummy.m"; sourceTree = "<group>"; };
+		F5B43462DACDA9BF0E291966969F6B19 /* Pods-BadmintonWeiyaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadmintonWeiyaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343436D25FFFC9A796A846270FD1C607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C0ADEAABDF2A20983E1A1E168F669 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD99C66805D67EF11176EFE3FB2FCE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA4B266B34CBEDE8C9106326E727CD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F891CD4A5AAB08C7CE2BEAD33EB5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37A84BEFFD1F2267886ADF53AA68D2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F81674F58C19A4E9D9471FB480932D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E44B41F7A45BC547AA45A1D2BB849DB2 /* Pods-BadmintonWeiya */,
+				1BDB24FCDD99897479908253B7128732 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests */,
+				874629923F3214FEB1B61998EA56E3A0 /* Pods-BadmintonWeiyaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1BDB24FCDD99897479908253B7128732 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75650219B9BD9B676B02635AE343AAC3 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.modulemap */,
+				73D0C624A1EDCB0353599901BB4E4B82 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-acknowledgements.markdown */,
+				586293F1D0615C8CE6C3CF8EC0FB6042 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-acknowledgements.plist */,
+				BACA9C6013DB80D6101AACA0A0CEBC80 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-dummy.m */,
+				9448B6A9A8517216663E33D492E61FAA /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-Info.plist */,
+				92FE81C8B69D11FE26B2714F6E554BC4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-umbrella.h */,
+				34A3D9DD4867A4BF45277686E3393759 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */,
+				4DB00EB2ADFAE81215D27166272641F2 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig */,
+			);
+			name = "Pods-BadmintonWeiya-BadmintonWeiyaUITests";
+			path = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		874629923F3214FEB1B61998EA56E3A0 /* Pods-BadmintonWeiyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45D118EF6C6DB965710EB4A1961DAE3 /* Pods-BadmintonWeiyaTests.modulemap */,
+				59286F862960749A99D2B0EC117CE820 /* Pods-BadmintonWeiyaTests-acknowledgements.markdown */,
+				F5B43462DACDA9BF0E291966969F6B19 /* Pods-BadmintonWeiyaTests-acknowledgements.plist */,
+				2D4ADAD016990DB6F3613A86C1CD30CF /* Pods-BadmintonWeiyaTests-dummy.m */,
+				7C9234F2A81F63187B634EDD2BEE83B8 /* Pods-BadmintonWeiyaTests-Info.plist */,
+				A775C156233CD53A9BA30494159A7BF9 /* Pods-BadmintonWeiyaTests-umbrella.h */,
+				D7C36E86E04823249BAC2E71DBC28DB1 /* Pods-BadmintonWeiyaTests.debug.xcconfig */,
+				5A2361D5A6CFF0F768E0AE1661597943 /* Pods-BadmintonWeiyaTests.release.xcconfig */,
+			);
+			name = "Pods-BadmintonWeiyaTests";
+			path = "Target Support Files/Pods-BadmintonWeiyaTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EC8110C74F0ABCAE1CD5DA2DA4376A34 /* Products */,
+				0F81674F58C19A4E9D9471FB480932D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44B41F7A45BC547AA45A1D2BB849DB2 /* Pods-BadmintonWeiya */ = {
+			isa = PBXGroup;
+			children = (
+				43AA88E0685083C6DEA9844F87757039 /* Pods-BadmintonWeiya.modulemap */,
+				1755094143652F7558354D4BE1A1EFF9 /* Pods-BadmintonWeiya-acknowledgements.markdown */,
+				36CA728A8DECA997A3D9D360B6BC7C3B /* Pods-BadmintonWeiya-acknowledgements.plist */,
+				EDE5C90AAE9F71F0E6DD022A365167D0 /* Pods-BadmintonWeiya-dummy.m */,
+				2C97605544822D0324CEE182910C3E0A /* Pods-BadmintonWeiya-Info.plist */,
+				553F9609D78D08AB61A0BC197BAF5187 /* Pods-BadmintonWeiya-umbrella.h */,
+				05BA04725D3EFD26618E549459BD6A76 /* Pods-BadmintonWeiya.debug.xcconfig */,
+				CE8297149BE3FA1C0CD0EB8CBD24F500 /* Pods-BadmintonWeiya.release.xcconfig */,
+			);
+			name = "Pods-BadmintonWeiya";
+			path = "Target Support Files/Pods-BadmintonWeiya";
+			sourceTree = "<group>";
+		};
+		EC8110C74F0ABCAE1CD5DA2DA4376A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F23B5F599CB60A4AE64FCCB2DC0BFD2 /* Pods-BadmintonWeiya */,
+				89D1F2C17EC9669AF69E4F20A74F2DA9 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests */,
+				2CE20A7E16E68E259BC6C5240873A3EE /* Pods-BadmintonWeiyaTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F8F6BDDD5E196F4EA3A6B15D6BC4B8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DD0BC0575593836993B2F8EECE83F6 /* Pods-BadmintonWeiyaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A80D52EFC10A5AD38BCA18D9C003C00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4627703BD0D3A4FCEFE2C15FB5E51584 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDAE5CAFE4BBF46BBB6CC8853B7F054 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3F07EDBC999FEB18D2B5E424A447AC /* Pods-BadmintonWeiya-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17BB26002352A1F1526BAA442064A45C /* Pods-BadmintonWeiya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF3CFA748A49A8C3F84FEDBD49695D1 /* Build configuration list for PBXNativeTarget "Pods-BadmintonWeiya" */;
+			buildPhases = (
+				ACDAE5CAFE4BBF46BBB6CC8853B7F054 /* Headers */,
+				D2441FA29B8CA3933C30226526C4952A /* Sources */,
+				343436D25FFFC9A796A846270FD1C607 /* Frameworks */,
+				87FDE42BD12C462EA7CD6288B4F0B422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BadmintonWeiya";
+			productName = Pods_BadmintonWeiya;
+			productReference = 8F23B5F599CB60A4AE64FCCB2DC0BFD2 /* Pods-BadmintonWeiya */;
+			productType = "com.apple.product-type.framework";
+		};
+		60FE19C473C758F2203C7D7F8B56DBEB /* Pods-BadmintonWeiyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CA5DD7836C466D1C6D9A62B9EC6A1E /* Build configuration list for PBXNativeTarget "Pods-BadmintonWeiyaTests" */;
+			buildPhases = (
+				3F8F6BDDD5E196F4EA3A6B15D6BC4B8E /* Headers */,
+				F48750BE337783BB02A2B237927D8B0D /* Sources */,
+				DD99C66805D67EF11176EFE3FB2FCE80 /* Frameworks */,
+				6A7216FFFA2443FD1BCAED93DF1C165A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287BF3F069D766CACD7EA5ED8D65455A /* PBXTargetDependency */,
+			);
+			name = "Pods-BadmintonWeiyaTests";
+			productName = Pods_BadmintonWeiyaTests;
+			productReference = 2CE20A7E16E68E259BC6C5240873A3EE /* Pods-BadmintonWeiyaTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		851614667E2F4B90CE6C23FB77F3BB63 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF252B239ED9F8AD2716A9DA584D0D5 /* Build configuration list for PBXNativeTarget "Pods-BadmintonWeiya-BadmintonWeiyaUITests" */;
+			buildPhases = (
+				5A80D52EFC10A5AD38BCA18D9C003C00 /* Headers */,
+				6C15635D7BC8A8CFF408D59CF19A604C /* Sources */,
+				F1F891CD4A5AAB08C7CE2BEAD33EB5B8 /* Frameworks */,
+				46103F40560A2D096A671EB9D3708DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BadmintonWeiya-BadmintonWeiyaUITests";
+			productName = Pods_BadmintonWeiya_BadmintonWeiyaUITests;
+			productReference = 89D1F2C17EC9669AF69E4F20A74F2DA9 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC8110C74F0ABCAE1CD5DA2DA4376A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BB26002352A1F1526BAA442064A45C /* Pods-BadmintonWeiya */,
+				851614667E2F4B90CE6C23FB77F3BB63 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests */,
+				60FE19C473C758F2203C7D7F8B56DBEB /* Pods-BadmintonWeiyaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46103F40560A2D096A671EB9D3708DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7216FFFA2443FD1BCAED93DF1C165A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FDE42BD12C462EA7CD6288B4F0B422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C15635D7BC8A8CFF408D59CF19A604C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9939E8ACB9A39C0AC8630FF079F1330 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2441FA29B8CA3933C30226526C4952A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EABB11B943EF14A00FBC440FBC8B70B /* Pods-BadmintonWeiya-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48750BE337783BB02A2B237927D8B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B8C5A68A507F3FD109643985CDAC34 /* Pods-BadmintonWeiyaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287BF3F069D766CACD7EA5ED8D65455A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BadmintonWeiya";
+			target = 17BB26002352A1F1526BAA442064A45C /* Pods-BadmintonWeiya */;
+			targetProxy = 7424B5A2363EA3A6B861D471A01C9313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29D80D2DFA8DD0D75E02C48AF36EFE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2361D5A6CFF0F768E0AE1661597943 /* Pods-BadmintonWeiyaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31B9B373673C57252B290ED42761EFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB00EB2ADFAE81215D27166272641F2 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B6130CC894167362FED72652B69CD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BA04725D3EFD26618E549459BD6A76 /* Pods-BadmintonWeiya.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadmintonWeiya/Pods-BadmintonWeiya-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadmintonWeiya/Pods-BadmintonWeiya.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93F8C230D44916D75E949D1D7E6F4387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A3D9DD4867A4BF45277686E3393759 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB57761E3A2B02D4F645990D6C2BC18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C36E86E04823249BAC2E71DBC28DB1 /* Pods-BadmintonWeiyaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5204819E4B8AD9966F744547B657F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8297149BE3FA1C0CD0EB8CBD24F500 /* Pods-BadmintonWeiya.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BadmintonWeiya/Pods-BadmintonWeiya-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BadmintonWeiya/Pods-BadmintonWeiya.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CA5DD7836C466D1C6D9A62B9EC6A1E /* Build configuration list for PBXNativeTarget "Pods-BadmintonWeiyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB57761E3A2B02D4F645990D6C2BC18F /* Debug */,
+				29D80D2DFA8DD0D75E02C48AF36EFE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF252B239ED9F8AD2716A9DA584D0D5 /* Build configuration list for PBXNativeTarget "Pods-BadmintonWeiya-BadmintonWeiyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8C230D44916D75E949D1D7E6F4387 /* Debug */,
+				31B9B373673C57252B290ED42761EFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF3CFA748A49A8C3F84FEDBD49695D1 /* Build configuration list for PBXNativeTarget "Pods-BadmintonWeiya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6130CC894167362FED72652B69CD17 /* Debug */,
+				E5204819E4B8AD9966F744547B657F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

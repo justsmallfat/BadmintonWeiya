@@ -1,0 +1,6 @@
+framework module Pods_BadmintonWeiya_BadmintonWeiyaUITests {
+  umbrella header "Pods-BadmintonWeiya-BadmintonWeiyaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
