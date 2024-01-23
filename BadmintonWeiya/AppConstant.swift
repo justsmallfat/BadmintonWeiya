@@ -27,7 +27,7 @@ class AppConstant {
     
     
     static let PlayerViewWidth = 100.0
-    static let PlayerViewHeight = 80.0
+    static let PlayerViewHeight = 60.0
     
 }
 
