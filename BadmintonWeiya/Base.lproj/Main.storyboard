@@ -15,14 +15,46 @@
                     <view key="view" contentMode="scaleToFill" id="XhE-mb-f4l">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RSx-jM-wgD">
+                                <rect key="frame" x="5" y="29" width="824" height="1045"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ye5-9U-biN">
+                                <rect key="frame" x="5" y="1079" width="824" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bCJ-Zh-CeZ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="儲存">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="saveButtonAction:" destination="lyd-47-KCe" eventType="touchUpInside" id="cm5-Ap-HXe"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Hht-sy-8Ow"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RSx-jM-wgD" firstAttribute="top" secondItem="Hht-sy-8Ow" secondAttribute="top" constant="5" id="7zH-sd-KQM"/>
+                            <constraint firstItem="Hht-sy-8Ow" firstAttribute="trailing" secondItem="RSx-jM-wgD" secondAttribute="trailing" constant="5" id="82L-E1-c6n"/>
+                            <constraint firstItem="Ye5-9U-biN" firstAttribute="top" secondItem="RSx-jM-wgD" secondAttribute="bottom" constant="5" id="Gni-uQ-3xK"/>
+                            <constraint firstItem="Ye5-9U-biN" firstAttribute="bottom" secondItem="Hht-sy-8Ow" secondAttribute="bottom" constant="5" id="L8i-5c-Whq"/>
+                            <constraint firstItem="Hht-sy-8Ow" firstAttribute="trailing" secondItem="Ye5-9U-biN" secondAttribute="trailing" constant="5" id="oBl-OJ-iJt"/>
+                            <constraint firstItem="Ye5-9U-biN" firstAttribute="leading" secondItem="Hht-sy-8Ow" secondAttribute="leading" constant="5" id="wwC-bT-bxP"/>
+                            <constraint firstItem="RSx-jM-wgD" firstAttribute="leading" secondItem="Hht-sy-8Ow" secondAttribute="leading" constant="5" id="zt4-si-61b"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="設定" id="TL9-bU-xfG"/>
+                    <connections>
+                        <outlet property="playerEditTableView" destination="RSx-jM-wgD" id="ejb-T0-HTb"/>
+                        <outlet property="saveButton" destination="Ye5-9U-biN" id="ty3-MK-FfK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4Z-6S-POt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="889" y="-322"/>
+            <point key="canvasLocation" x="610" y="-758"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0JY-1l-4UP">

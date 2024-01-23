@@ -17,6 +17,13 @@
 		34A00B102B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B0F2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift */; };
 		34A00B122B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B112B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift */; };
 		34A00B242B5F681D00E19B6D /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B232B5F681D00E19B6D /* SetViewController.swift */; };
+		34A00B272B5F6D7C00E19B6D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B262B5F6D7C00E19B6D /* PlayerView.swift */; };
+		34A00B2A2B5F6DBC00E19B6D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B292B5F6DBC00E19B6D /* Player.swift */; };
+		34A00B2E2B5F6F1200E19B6D /* PlayerEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B2C2B5F6F1200E19B6D /* PlayerEditTableViewCell.swift */; };
+		34A00B2F2B5F6F1200E19B6D /* PlayerEditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A00B2D2B5F6F1200E19B6D /* PlayerEditTableViewCell.xib */; };
+		34A00B312B5F6F4B00E19B6D /* PlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A00B302B5F6F4B00E19B6D /* PlayerView.xib */; };
+		34A00B332B5F6F8900E19B6D /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B322B5F6F8900E19B6D /* NibOwnerLoadable.swift */; };
+		34A00B352B5F8EE400E19B6D /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B342B5F8EE400E19B6D /* AppConstant.swift */; };
 		426AA9833B92FA1649419071 /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDAD7A73CB402448F9A11E /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework */; };
 		4338540061546518AD2244B2 /* Pods_BadmintonWeiya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433E1846EF687CAFF22B7CFB /* Pods_BadmintonWeiya.framework */; };
 		A7340F49CD4AACD22EB76338 /* Pods_BadmintonWeiyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3C616ADA48E3940F9C5855 /* Pods_BadmintonWeiyaTests.framework */; };
@@ -54,6 +61,13 @@
 		34A00B0F2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonWeiyaUITests.swift; sourceTree = "<group>"; };
 		34A00B112B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonWeiyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		34A00B232B5F681D00E19B6D /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		34A00B262B5F6D7C00E19B6D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		34A00B292B5F6DBC00E19B6D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		34A00B2C2B5F6F1200E19B6D /* PlayerEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEditTableViewCell.swift; sourceTree = "<group>"; };
+		34A00B2D2B5F6F1200E19B6D /* PlayerEditTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerEditTableViewCell.xib; sourceTree = "<group>"; };
+		34A00B302B5F6F4B00E19B6D /* PlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerView.xib; sourceTree = "<group>"; };
+		34A00B322B5F6F8900E19B6D /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
+		34A00B342B5F8EE400E19B6D /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		3F6555FC127B736AC4485BB4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		433E1846EF687CAFF22B7CFB /* Pods_BadmintonWeiya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadmintonWeiya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		716AB18125D5CF2D62F56BE9 /* Pods-BadmintonWeiyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiyaTests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +132,10 @@
 		34A00AED2B5F5BD600E19B6D /* BadmintonWeiya */ = {
 			isa = PBXGroup;
 			children = (
+				34A00B342B5F8EE400E19B6D /* AppConstant.swift */,
+				34A00B2B2B5F6EAB00E19B6D /* tableviewcell */,
+				34A00B282B5F6DA200E19B6D /* entity */,
+				34A00B252B5F6D5300E19B6D /* view */,
 				34A00B222B5F65C300E19B6D /* viewcontroller */,
 				34A00AEE2B5F5BD600E19B6D /* AppDelegate.swift */,
 				34A00AF02B5F5BD600E19B6D /* SceneDelegate.swift */,
@@ -125,6 +143,7 @@
 				34A00AF72B5F5BDF00E19B6D /* Assets.xcassets */,
 				34A00AF92B5F5BDF00E19B6D /* LaunchScreen.storyboard */,
 				34A00AFC2B5F5BDF00E19B6D /* Info.plist */,
+				34A00B322B5F6F8900E19B6D /* NibOwnerLoadable.swift */,
 			);
 			path = BadmintonWeiya;
 			sourceTree = "<group>";
@@ -153,6 +172,32 @@
 				34A00B232B5F681D00E19B6D /* SetViewController.swift */,
 			);
 			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		34A00B252B5F6D5300E19B6D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				34A00B262B5F6D7C00E19B6D /* PlayerView.swift */,
+				34A00B302B5F6F4B00E19B6D /* PlayerView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		34A00B282B5F6DA200E19B6D /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				34A00B292B5F6DBC00E19B6D /* Player.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		34A00B2B2B5F6EAB00E19B6D /* tableviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				34A00B2C2B5F6F1200E19B6D /* PlayerEditTableViewCell.swift */,
+				34A00B2D2B5F6F1200E19B6D /* PlayerEditTableViewCell.xib */,
+			);
+			path = tableviewcell;
 			sourceTree = "<group>";
 		};
 		8335DAF8D1F4C83D6F152763 /* Frameworks */ = {
@@ -287,7 +332,9 @@
 			files = (
 				34A00AFB2B5F5BDF00E19B6D /* LaunchScreen.storyboard in Resources */,
 				34A00AF82B5F5BDF00E19B6D /* Assets.xcassets in Resources */,
+				34A00B2F2B5F6F1200E19B6D /* PlayerEditTableViewCell.xib in Resources */,
 				34A00AF62B5F5BD600E19B6D /* Main.storyboard in Resources */,
+				34A00B312B5F6F4B00E19B6D /* PlayerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,9 +428,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A00B352B5F8EE400E19B6D /* AppConstant.swift in Sources */,
 				34A00AF32B5F5BD600E19B6D /* ActivityViewController.swift in Sources */,
+				34A00B332B5F6F8900E19B6D /* NibOwnerLoadable.swift in Sources */,
+				34A00B2E2B5F6F1200E19B6D /* PlayerEditTableViewCell.swift in Sources */,
 				34A00B242B5F681D00E19B6D /* SetViewController.swift in Sources */,
 				34A00AEF2B5F5BD600E19B6D /* AppDelegate.swift in Sources */,
+				34A00B272B5F6D7C00E19B6D /* PlayerView.swift in Sources */,
+				34A00B2A2B5F6DBC00E19B6D /* Player.swift in Sources */,
 				34A00AF12B5F5BD600E19B6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
