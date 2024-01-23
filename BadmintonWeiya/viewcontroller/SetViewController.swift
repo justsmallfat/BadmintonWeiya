@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SetViewController.swift
 //  BadmintonWeiya
 //
 //  Created by 小胖 on 2024/1/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SetViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +16,3 @@ class ViewController: UIViewController {
 
 
 }
-

@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		34A00AEF2B5F5BD600E19B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00AEE2B5F5BD600E19B6D /* AppDelegate.swift */; };
 		34A00AF12B5F5BD600E19B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00AF02B5F5BD600E19B6D /* SceneDelegate.swift */; };
-		34A00AF32B5F5BD600E19B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00AF22B5F5BD600E19B6D /* ViewController.swift */; };
+		34A00AF32B5F5BD600E19B6D /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00AF22B5F5BD600E19B6D /* ActivityViewController.swift */; };
 		34A00AF62B5F5BD600E19B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A00AF42B5F5BD600E19B6D /* Main.storyboard */; };
 		34A00AF82B5F5BDF00E19B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A00AF72B5F5BDF00E19B6D /* Assets.xcassets */; };
 		34A00AFB2B5F5BDF00E19B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A00AF92B5F5BDF00E19B6D /* LaunchScreen.storyboard */; };
 		34A00B062B5F5BDF00E19B6D /* BadmintonWeiyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B052B5F5BDF00E19B6D /* BadmintonWeiyaTests.swift */; };
 		34A00B102B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B0F2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift */; };
 		34A00B122B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B112B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift */; };
+		34A00B242B5F681D00E19B6D /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A00B232B5F681D00E19B6D /* SetViewController.swift */; };
 		426AA9833B92FA1649419071 /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDDAD7A73CB402448F9A11E /* Pods_BadmintonWeiya_BadmintonWeiyaUITests.framework */; };
 		4338540061546518AD2244B2 /* Pods_BadmintonWeiya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433E1846EF687CAFF22B7CFB /* Pods_BadmintonWeiya.framework */; };
 		A7340F49CD4AACD22EB76338 /* Pods_BadmintonWeiyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3C616ADA48E3940F9C5855 /* Pods_BadmintonWeiyaTests.framework */; };
@@ -42,7 +43,7 @@
 		34A00AEB2B5F5BD600E19B6D /* BadmintonWeiya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadmintonWeiya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A00AEE2B5F5BD600E19B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A00AF02B5F5BD600E19B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34A00AF22B5F5BD600E19B6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34A00AF22B5F5BD600E19B6D /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		34A00AF52B5F5BD600E19B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34A00AF72B5F5BDF00E19B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34A00AFA2B5F5BDF00E19B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		34A00B0B2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadmintonWeiyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A00B0F2B5F5BDF00E19B6D /* BadmintonWeiyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonWeiyaUITests.swift; sourceTree = "<group>"; };
 		34A00B112B5F5BDF00E19B6D /* BadmintonWeiyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadmintonWeiyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34A00B232B5F681D00E19B6D /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
 		3F6555FC127B736AC4485BB4 /* Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiya-BadmintonWeiyaUITests/Pods-BadmintonWeiya-BadmintonWeiyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		433E1846EF687CAFF22B7CFB /* Pods_BadmintonWeiya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadmintonWeiya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		716AB18125D5CF2D62F56BE9 /* Pods-BadmintonWeiyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonWeiyaTests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonWeiyaTests/Pods-BadmintonWeiyaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,9 +118,9 @@
 		34A00AED2B5F5BD600E19B6D /* BadmintonWeiya */ = {
 			isa = PBXGroup;
 			children = (
+				34A00B222B5F65C300E19B6D /* viewcontroller */,
 				34A00AEE2B5F5BD600E19B6D /* AppDelegate.swift */,
 				34A00AF02B5F5BD600E19B6D /* SceneDelegate.swift */,
-				34A00AF22B5F5BD600E19B6D /* ViewController.swift */,
 				34A00AF42B5F5BD600E19B6D /* Main.storyboard */,
 				34A00AF72B5F5BDF00E19B6D /* Assets.xcassets */,
 				34A00AF92B5F5BDF00E19B6D /* LaunchScreen.storyboard */,
@@ -144,6 +146,15 @@
 			path = BadmintonWeiyaUITests;
 			sourceTree = "<group>";
 		};
+		34A00B222B5F65C300E19B6D /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				34A00AF22B5F5BD600E19B6D /* ActivityViewController.swift */,
+				34A00B232B5F681D00E19B6D /* SetViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
 		8335DAF8D1F4C83D6F152763 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +175,6 @@
 				716AB18125D5CF2D62F56BE9 /* Pods-BadmintonWeiyaTests.debug.xcconfig */,
 				F420E99E67E4CE2B1DA988DF /* Pods-BadmintonWeiyaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -371,7 +381,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A00AF32B5F5BD600E19B6D /* ViewController.swift in Sources */,
+				34A00AF32B5F5BD600E19B6D /* ActivityViewController.swift in Sources */,
+				34A00B242B5F681D00E19B6D /* SetViewController.swift in Sources */,
 				34A00AEF2B5F5BD600E19B6D /* AppDelegate.swift in Sources */,
 				34A00AF12B5F5BD600E19B6D /* SceneDelegate.swift in Sources */,
 			);
